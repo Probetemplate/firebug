@@ -16,6 +16,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AuthService } from './shared/services/auth.service';
 import { NgxEchartsModule } from 'ngx-echarts';
 import { LineChartComponent } from './components/line-chart/line-chart.component';
+import { MainComponent } from './components/main/main.component';
 import * as echarts from 'echarts';
 
 
@@ -27,7 +28,8 @@ import * as echarts from 'echarts';
     SignUpComponent,
     ForgotPasswordComponent,
     VerifyEmailComponent,
-    LineChartComponent
+    LineChartComponent,
+    MainComponent
 
   ],
   imports: [
