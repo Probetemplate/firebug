@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ChatroomComponent } from './chatroom.component';
 
-describe('HomeComponent', () => {
+describe('ChatroomComponent', () => {
   let component: ChatroomComponent;
   let fixture: ComponentFixture<ChatroomComponent>;
 
