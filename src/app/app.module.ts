@@ -12,6 +12,7 @@ import { SignInComponent } from './components/sign-in/sign-in.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
 import { VerifyEmailComponent } from './components/verify-email/verify-email.component';
+import { HomeComponent } from './components/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AuthService } from './shared/services/auth.service';
 import { NgxEchartsModule } from 'ngx-echarts';
@@ -28,6 +29,7 @@ import * as echarts from 'echarts';
     SignUpComponent,
     ForgotPasswordComponent,
     VerifyEmailComponent,
+    HomeComponent,
     LineChartComponent
 
   ],
