@@ -7,6 +7,7 @@ import { ForgotPasswordComponent } from './components/forgot-password/forgot-pas
 import { VerifyEmailComponent } from './components/verify-email/verify-email.component';
 import { HomeComponent } from './components/home/home.component';
 import { ChatroomComponent } from './components/chatroom/chatroom.component';
+import { ExamComponent } from './components/exam/exam.component';
 // route guard
 import { AuthGuard } from './shared/guard/auth.guard';
 
@@ -19,7 +20,9 @@ const routes: Routes = [
   { path: 'verify-email-address', component: VerifyEmailComponent },
   { path: 'home', component: HomeComponent },
   { path: 'chatroom', component: ChatroomComponent },
-]; 
+  { path: 'exam', component: ExamComponent },
+];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
